@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Soundboard</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
+	<link rel="stylesheet" type="text/css" href="style/main-soundboard.css"/>
+	<link rel="stylesheet" type="text/css" href="style/recording-section.css"/>
+	<link rel="stylesheet" type="text/css" href="style/buttons/pop.css"/>
+	<link rel="stylesheet" type="text/css" href="style/buttons/rap.css"/>
+	<link rel="stylesheet" type="text/css" href="style/buttons/rock.css"/>
+	<link rel="stylesheet" type="text/css" href="style/buttons/meme.css"/>
+	<script src = "scripts/window.js" type = "text/javascript"></script>
+</div>
+</head>
+
+<body>
+<!-- Task Bar -->
+	<div id="taskBar">
+		<h1>SoundBoard</h1>
+	</div>
+
+<!-- pop-up window -->
+<button data-modal-target="#modal">Open Modal</button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Pro Tip</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      Use Keyboard for sounds!!
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+<div id="main-soundboard">
+	<!-- Pop row  -->
+		<div class="flex-pop">
+			<div class="clickable-box" >
+				<input id="pop1" type="button" value = "pop1" onclick = "playAudio1()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="pop2" type="button" value = "pop2" onclick = "playAudio2()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="pop3" type="button" value = "pop3" onclick = "playAudio3()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="pop4" type="button" value = "pop4" onclick = "playAudio4()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="pop5" type="button" value = "pop5" onclick = "playAudio5()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="pop6" type="button" value = "pop6" onclick = "playAudio6()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="pop7" type="button" value = "pop7" onclick = "playAudio7()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="pop8" type="button" value = "pop8" onclick = "playAudio8()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="pop9" type="button" value = "pop9" onclick = "playAudio9()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="pop10" type="button" value = "pop10" onclick = "playAudio0()"/>
+			</div>
+		</div>
+
+	<!-- Rap row  -->
+		<div class="flex-rap">
+			<div class="clickable-box" >
+				<input id="rap1" type="button" value = "rap1" onclick = "playAudioQ()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rap2" type="button" value = "rap2" onclick = "playAudioW()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rap3" type="button" value = "rap3" onclick = "playAudioE()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rap4" type="button" value = "rap4" onclick = "playAudioR()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rap5" type="button" value = "rap5" onclick = "playAudioT()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rap6" type="button" value = "rap6" onclick = "playAudioY()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rap7" type="button" value = "rap7" onclick = "playAudioU()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="rap8" type="button" value = "rap8" onclick = "playAudioI()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="rap9" type="button" value = "rap9" onclick = "playAudioO()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="rap10" type="button" value = "rap10" onclick = "playAudioP()"/>
+			</div>
+		</div>
+
+	<!-- Rock row  -->
+		<div class="flex-rock">
+			<div class="clickable-box" >
+				<input id="rock1" type="button" value = "rock1" onclick = "playAudioA()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rock2" type="button" value = "rock2" onclick = "playAudioS()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rock3" type="button" value = "rock3" onclick = "playAudioD()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rock4" type="button" value = "rock4" onclick = "playAudioF()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rock5" type="button" value = "rock5" onclick = "playAudioG()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rock6" type="button" value = "rock6" onclick = "playAudioH()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="rock7" type="button" value = "rock7" onclick = "playAudioJ()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="rock8" type="button" value = "rock8" onclick = "playAudioK()"/>
+			</div>
+			
+			<div class="clickable-box" >
+				<input id="rock9" type="button" value = "rock9" onclick = "playAudioL()"/>
+			</div>
+		</div>
+
+	<!-- Meme row  -->
+		<div class="flex-meme">
+			<div class="clickable-box" >
+				<input  id="meme1" type="button" value = "meme1" onclick = "playAudioZ()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="meme2" type="button" value = "meme2" onclick = "playAudioX()"/>
+			</div>
+
+			<div class="clickable-box" id="meme3">
+				<input id="meme3" type="button" value = "meme3" onclick = "playAudioC()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="meme4" type="button" value = "meme4" onclick = "playAudioV()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="meme5" type="button" value = "meme5" onclick = "playAudioB()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="meme6" type="button" value = "meme6" onclick = "playAudioN()"/>
+			</div>
+
+			<div class="clickable-box" >
+				<input id="meme7" type="button" value = "meme7" onclick = "playAudioM()"/>
+			</div>
+		</div>
+
+	
+		
+	</div>
+<!-- Play back / recording section -->
+<header id = "buttonBar">
+		<input id="playButton" type = "button" value = "Play" />
+		<input id="recordButton" type = "button" value = "Record" />
+	</header>
+<div id = "recording-section" >
+		<div id = "progressBar"></div>
+		<div class = "channel" id = "channel1"></div>
+		<div class = "channel" id = "channel2"></div>
+		<div class = "channel" id = "channel3"></div>
+</div>
+
+<script src = "scripts/sampler.js" type = "text/javascript"></script>
+<script src = "scripts/keyboard.js" type = "text/javascript"></script>
+
+</body>
+</html>

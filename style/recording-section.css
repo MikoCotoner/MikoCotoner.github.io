@@ -1,0 +1,25 @@
+#buttonBar {
+    display: inline-block;
+    margin-top: 1%;
+    height: 3%;
+    width: 100%;
+}
+
+#recording-section {    
+    height: 20%;
+    width: 100%;
+    /*border: darkgreen solid;*/
+}
+
+#progressBar {
+    float: left;
+    width: 0.5%;
+    height: 100%;
+    margin-left: 0%;
+    background-color: red;
+}
+.channel{
+    height: 30%;
+    width: 100%;
+    border: violet solid;
+}
