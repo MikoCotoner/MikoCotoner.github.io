@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
 	<title>Soundboard</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css"/>
@@ -10,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="style/buttons/rap.css"/>
 	<link rel="stylesheet" type="text/css" href="style/buttons/rock.css"/>
 	<link rel="stylesheet" type="text/css" href="style/buttons/meme.css"/>
-	<script src = "scripts/window.js" type = "text/javascript"></script>
+
 </div>
 </head>
 
@@ -21,17 +24,15 @@
 	</div>
 
 <!-- pop-up window -->
-<button data-modal-target="#modal">Open Modal</button>
-  <div class="modal" id="modal">
-    <div class="modal-header">
-      <div class="title">Pro Tip</div>
-      <button data-close-button class="close-button">&times;</button>
+<a href="#modal" class="modal-open">Open Modal</a>
+ 
+ <div class="modal" id="modal">
+    <div class="modal__content">
+      <a href="#" class="modal__close">&times;</a>
+      <h2 class="modal__heading">Instructions</h2>
+	  <p class="modal__paragraph">Click on the pads or use your keyboard to play sounds.</p>
     </div>
-    <div class="modal-body">
-      Use Keyboard for sounds!!
-    </div>
-  </div>
-  <div id="overlay"></div>
+ </div>
 
 <div id="main-soundboard">
 	<!-- Pop row  -->

@@ -207,12 +207,12 @@ function playAudioI(){
 }
 
 function playAudioO(){
-    var a = new Audio("audio/instruments/rap/rap9.mp3"); 
+    var a = new Audio("audio/instruments/rap/rap1.mp3"); 
     a.play();
 }
 
 function playAudioP(){
-    var a = new Audio("audio/instruments/rap/rap10.mp3"); 
+    var a = new Audio("audio/instruments/rap/rap2.mp3"); 
     a.play();
 }
 
@@ -233,7 +233,7 @@ function playAudioD(){
 }
 
 function playAudioF(){
-    var a = new Audio("audio/instruments/rock/rock4.mp3"); 
+    var a = new Audio("audio/instruments/rock/rock1.mp3"); 
     a.play();
 }
 
@@ -258,7 +258,7 @@ function playAudioK(){
 }
 
 function playAudioL(){
-    var a = new Audio("audio/instruments/rock/rock9.mp3"); 
+    var a = new Audio("audio/instruments/rock/rock1.mp3"); 
     a.play();
 }
 
